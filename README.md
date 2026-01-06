@@ -1,6 +1,13 @@
 # CDCC: Cross-Domain Crimp Quality Classification
 
-A comprehensive deep learning framework for crimp quality classification with cross-domain adaptation capabilities. This project addresses the challenge of classifying crimp quality across different wire cross-section sizes (0.35 and 0.5) using both raw force curves and handcrafted features.
+Crimping connection is a solderless method for joining wires and terminals in electrical systems through mechanical compression, whose quality directly impacts system reliability.
+However, significant domain distribution discrepancies exist among multi-specification conductor-terminal pairs in industrial settings, and the scarcity of samples for certain fault categories severely restricts the cross-domain generalization capability of traditional diagnostic models.
+Therefore, an adaptive diagnostic scheme integrating multi-domain features with a dual-alignment mechanism is proposed in this article.
+Specifically, an Intelligent Hybrid Guided Network (IHGNet) is designed for single-domain diagnosis, which employs a dual-path input structure and a triple-supervision mechanism to effectively fuse raw sequential curves and multi-domain handcrafted features, thereby constructing a highly robust feature extraction backbone.
+Building upon this backbone, a Dual-Alignment Hybrid Domain Adaptation Network (DAHDANet) is further proposed for cross-domain tasks.
+By collaboratively utilizing domain-adversarial training and Maximum Mean Discrepancy minimization, DAHDANet achieves dual alignment of inter-domain distributions.
+The experimental results show that IHGNet achieves accuracies of 96.72% and 95.10% on the two datasets, surpassing all compared classical models.
+DAHDANet effectively reduces the inter-domain discrepancy by 49.94% and achieves accuracies of 88.50% and 79.71% in bidirectional cross-domain tasks, significantly outperforming existing domain adaptation methods and non-transfer strategy approaches.
 
 ## 📋 Table of Contents
 
