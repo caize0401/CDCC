@@ -1,4 +1,4 @@
-# CDCC: Cross-Domain Crimp Quality Classification
+# Crimping Quality Diagnosis for Cross-Domain Discrepancies: A Feature Fusion and Dual-Alignment Approach (CDCC)
 
 <div align="justify">
 Crimping connection is a solderless method for joining wires and terminals in electrical systems through mechanical compression, whose quality directly impacts system reliability.
