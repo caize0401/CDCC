@@ -1,5 +1,6 @@
 # CDCC: Cross-Domain Crimp Quality Classification
 
+<div align="justify">
 Crimping connection is a solderless method for joining wires and terminals in electrical systems through mechanical compression, whose quality directly impacts system reliability.
 However, significant domain distribution discrepancies exist among multi-specification conductor-terminal pairs in industrial settings, and the scarcity of samples for certain fault categories severely restricts the cross-domain generalization capability of traditional diagnostic models.
 Therefore, an adaptive diagnostic scheme integrating multi-domain features with a dual-alignment mechanism is proposed in this article.
@@ -8,6 +9,7 @@ Building upon this backbone, a Dual-Alignment Hybrid Domain Adaptation Network (
 By collaboratively utilizing domain-adversarial training and Maximum Mean Discrepancy minimization, DAHDANet achieves dual alignment of inter-domain distributions.
 The experimental results show that IHGNet achieves accuracies of 96.72% and 95.10% on the two datasets, surpassing all compared classical models.
 DAHDANet effectively reduces the inter-domain discrepancy by 49.94% and achieves accuracies of 88.50% and 79.71% in bidirectional cross-domain tasks, significantly outperforming existing domain adaptation methods and non-transfer strategy approaches.
+</div>
 
 ## 📋 Table of Contents
 
