@@ -1,0 +1,42 @@
+2. Detailed Description of Feature Extraction
+2.1 Time Domain Features - 26 features in total
+Feature Name	Feature Category	Physical Meaning / Description
+mean	Basic Statistical Features	Signal mean value, describing central tendency
+maximum	Basic Statistical Features	Maximum value of the signal
+minimum	Basic Statistical Features	Minimum value of the signal
+variance	Basic Statistical Features	Signal variance, describing dispersion degree
+std	Basic Statistical Features	Signal standard deviation
+skewness	Basic Statistical Features	Signal skewness, describing distribution asymmetry
+kurtosis	Basic Statistical Features	Signal kurtosis, describing distribution sharpness
+median	Order Statistical Features	Signal median value, insensitive to outliers
+q25	Order Statistical Features	25th percentile
+q75	Order Statistical Features	75th percentile
+linear_slope	Linear Fitting Features	Linear fitting slope, capturing overall trend
+linear_intercept	Linear Fitting Features	Linear fitting intercept
+linear_rss	Linear Fitting Features	Linear fitting residual sum of squares
+c3_0	Polynomial Fitting Features	3rd-order polynomial coefficient 0
+c3_1	Polynomial Fitting Features	3rd-order polynomial coefficient 1
+c3_2	Polynomial Fitting Features	3rd-order polynomial coefficient 2
+c3_3	Polynomial Fitting Features	3rd-order polynomial coefficient 3
+c4_0	Polynomial Fitting Features	4th-order polynomial coefficient 0
+c4_1	Polynomial Fitting Features	4th-order polynomial coefficient 1
+c4_2	Polynomial Fitting Features	4th-order polynomial coefficient 2
+c4_3	Polynomial Fitting Features	4th-order polynomial coefficient 3
+c4_4	Polynomial Fitting Features	4th-order polynomial coefficient 4
+absolute_sum_of_changes	Variation Features	Total variation, measuring total fluctuation of signal
+mean_abs_change	Variation Features	Mean absolute change
+number_peaks	Peak-related Features	Number of peaks
+index_mass_quantile	Peak-related Features	Position of mass center
+2.2 Frequency Domain Features - 4 features in total
+Feature Name	Feature Category	Physical Meaning / Description
+spectral_centroid	Spectral Features	Spectral centroid, reflecting the mass center of frequency distribution
+spectral_bandwidth	Spectral Features	Spectral bandwidth, describing dispersion degree of frequency distribution around centroid
+spectral_rolloff	Spectral Features	Spectral roll-off point, frequency where cumulative power reaches 85%
+spectral_entropy	Spectral Features	Spectral entropy, describing the chaos degree of spectral energy distribution
+2.3 Time-Frequency Domain Features - 5 features in total
+Feature Name	Feature Category	Physical Meaning / Description
+wavelet_energy_A4	Wavelet Energy Features	Energy of approximation coefficients from 4-level wavelet decomposition
+wavelet_energy_D4	Wavelet Energy Features	Energy of 4th-level detail coefficients from 4-level wavelet decomposition
+wavelet_energy_D3	Wavelet Energy Features	Energy of 3rd-level detail coefficients from 4-level wavelet decomposition
+wavelet_energy_D2	Wavelet Energy Features	Energy of 2nd-level detail coefficients from 4-level wavelet decomposition
+wavelet_energy_D1	Wavelet Energy Features	Energy of 1st-level detail coefficients from 4-level wavelet decomposition

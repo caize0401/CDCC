@@ -1,0 +1,92 @@
+﻿# Core Deep Learning Framework
+# Note: PyTorch with CUDA support should be installed from https://pytorch.org/
+# For CUDA 12.4: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0+cu124
+torchvision==0.21.0+cu124
+torchaudio==2.6.0+cu124
+
+# Data Processing
+numpy==2.0.2
+pandas==2.3.2
+scipy==1.13.1
+scikit-learn==1.6.1
+
+# Visualization
+matplotlib==3.9.4
+seaborn==0.13.2
+pillow==11.3.0
+
+# Machine Learning
+xgboost==2.1.4
+h2o==3.46.0.7
+FLAML==2.3.6
+
+# Explainability
+shap==0.49.1
+
+# Utilities
+tqdm==4.67.1
+joblib==1.5.2
+pyyaml==6.0.3
+
+# TensorFlow (optional, for some utilities)
+# tensorflow==2.20.0
+# keras==3.10.0
+# tensorboard==2.20.0
+
+# Additional dependencies
+absl-py==2.3.1
+astunparse==1.6.3
+certifi==2025.8.3
+charset-normalizer==3.4.3
+cloudpickle==3.1.1
+colorama==0.4.6
+contourpy==1.3.0
+cycler==0.12.1
+filelock==3.13.1
+flatbuffers==25.9.23
+fonttools==4.60.0
+fsspec==2024.6.1
+gast==0.6.0
+google-pasta==0.2.0
+grpcio==1.75.1
+h5py==3.14.0
+idna==3.10
+importlib-metadata==8.7.0
+importlib-resources==6.5.2
+Jinja2==3.1.4
+kiwisolver==1.4.7
+llvmlite==0.43.0
+lxml==6.0.2
+Markdown==3.9
+markdown-it-py==3.0.0
+MarkupSafe==3.0.3
+mdurl==0.1.2
+ml-dtypes==0.5.3
+mpmath==1.3.0
+namex==0.1.0
+networkx==3.2.1
+numba==0.60.0
+opt-einsum==3.4.0
+optree==0.17.0
+packaging==25.0
+protobuf==6.32.1
+Pygments==2.19.2
+pyparsing==3.2.5
+python-dateutil==2.9.0.post0
+pytz==2025.2
+PyWavelets==1.6.0
+requests==2.32.5
+rich==14.1.0
+six==1.17.0
+slicer==0.0.8
+sympy==1.13.1
+tabulate==0.9.0
+termcolor==3.1.0
+threadpoolctl==3.6.0
+typing-extensions==4.15.0
+tzdata==2025.2
+urllib3==2.5.0
+Werkzeug==3.1.3
+wrapt==1.17.3
+zipp==3.23.0
