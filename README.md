@@ -86,7 +86,3 @@ python train.py --epochs 50 --batch_size 64 --lr 0.001 \
   - `experiments/uacan_best.pt`: Model state and config (dims, num_known, etc.).
   - `experiments/target_confusion_matrix.xlsx`: Target-domain confusion matrix (known classes + unknown). Falls back to CSV if `openpyxl` is unavailable.
 
-## License
-
-See repository license. This implementation is for research and reproducibility.
-
